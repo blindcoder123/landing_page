@@ -1,0 +1,38 @@
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.mid {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.bottom-mid{
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
