@@ -1,13 +1,27 @@
 .header {
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
 }
 
 .header-links {
+    display: flex;
+    margin-right: 40px;
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding: 8px;
+    margin-left: 40px;
 }
 
 .info-header {
