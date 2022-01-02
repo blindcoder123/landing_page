@@ -28,6 +28,22 @@
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
+    text-align: center;
+}
+
+.bottom-header {
+    display: flex;
+}
+
+.left-h-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main {
+    font-size: 48px;
+    font: #F9FAF8;
+    font-weight: bolder;
 }
 
 button {
@@ -40,13 +56,55 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.bottom-mid{
+.bottom-mid {
     background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.top-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.sig {
+    font-weight: bold;
+    margin-left: auto;
 }
