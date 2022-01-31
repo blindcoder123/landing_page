@@ -4,6 +4,8 @@
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .header-links {
@@ -20,8 +22,8 @@
 }
 
 .header-logo {
-    padding: 8px;
-    margin-left: 40px;
+    padding-top: 8px;
+    
 }
 
 .info-header {
@@ -107,4 +109,13 @@ img {
 .sig {
     font-weight: bold;
     margin-left: auto;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 8px;;
 }
